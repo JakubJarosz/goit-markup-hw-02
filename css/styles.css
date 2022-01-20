@@ -29,7 +29,7 @@ body {
 
 .header .navigation-logo:after {
   content: "Studio";
-  color: var(--secondary-color);
+  color: #212121;
 }
 
 .footer .navigation-logo:before {
