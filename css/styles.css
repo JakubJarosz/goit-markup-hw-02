@@ -22,14 +22,24 @@ body {
   color: var(--main-color);
 }
 
-.navigation-logo:before {
+.header .navigation-logo:before {
   content: "Web";
   color: var(--main-color);
 }
 
-.navigation-logo:after {
+.header .navigation-logo:after {
   content: "Studio";
   color: var(--secondary-color);
+}
+
+.footer .navigation-logo:before {
+  content: "Web";
+  color: var(--main-color);
+}
+
+.footer .navigation-logo:after {
+  content: "Studio";
+  color: #ffffff;
 }
 
 .navigation-list-item-link,
@@ -90,6 +100,10 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+}
+
+.footer .navigation-logo {
+  color: black;
 }
 
 .information-list-item-spandown,
